@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    
+    <title>Document</title>
+</head>
+<body>
+    <h1> I Guess this works </h1>
+    <h3> DecisionTree </h3>
+    <div ng-app="myApp" ng-controller="formCtrl" >
+        <form ng-submit="processForm()">
+        <label>height:</label>
+        <input type="text" name="height" ng-model="formData.height" placeholder="Enter Your height">
+        <br/>
+        <label>weight:</label>
+        <input type="text" name="weight" ng-model="formData.weight" placeholder="Enter Your weight">
+        <br/>
+        <label>Shose Size:</label>
+        <input type="text" name="shoe"  ng-model="formData.shoe" placeholder="Enter Your Shose Size">
+        <br>
+        <button type="submit">Send </button>
+        </form>
+  
+    {% raw %}
+       <h1> Our prediction</h1>
+        <p> you are a {{ data }}
+    {% endraw %}
+      </div>
+    <script>
+        var app = angular.module("myApp",[]);
+        app.controller("formCtrl",function($scope,$http){
+            $scope.formData = {}
+           $scope.processForm = function(){
+            $http(({
+                method:"POST",
+                url : '/data',
+                data: $.param($scope.formData),
+                  headers : { 'Content-Type': 'application/x-www-form-urlencoded' } 
+            })).success(function(data){
+                console.log(data)
+                $scope.data = data
+            })
+           }
+        })
+
+    </script>
+</body>
+
+</html>

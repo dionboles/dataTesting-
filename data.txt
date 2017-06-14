@@ -1,0 +1,103 @@
+Dec 30 16:32:59 localhost crond[645]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 33% if used.)
+Dec 30 16:33:00 localhost crond[645]: (CRON) INFO (running with inotify support)
+Dec 30 16:36:32 localhost crond[625]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 29% if used.)
+Dec 30 16:36:32 localhost crond[625]: (CRON) INFO (running with inotify support)
+Dec 30 16:38:36 localhost crond[632]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 74% if used.)
+Dec 30 16:38:36 localhost crond[632]: (CRON) INFO (running with inotify support)
+Dec 30 16:39:08 localhost crond[632]: (CRON) INFO (Shutting down)
+Dec 30 16:39:08 localhost crond[9786]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 8% if used.)
+Dec 30 16:39:09 localhost crond[9786]: (CRON) INFO (running with inotify support)
+Dec 30 16:39:09 localhost crond[9786]: (CRON) INFO (@reboot jobs will be run at computer's startup.)
+Dec 30 16:44:10 localhost crond[9786]: (CRON) INFO (Shutting down)
+Dec 30 16:45:18 localhost crond[639]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 55% if used.)
+Dec 30 16:45:18 localhost crond[639]: (CRON) INFO (running with inotify support)
+Dec 30 16:46:16 localhost crond[639]: (CRON) INFO (Shutting down)
+Dec 30 17:39:21 localhost crond[643]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 68% if used.)
+Dec 30 17:39:21 localhost crond[643]: (CRON) INFO (running with inotify support)
+Mar 21 16:52:17 localhost crond[644]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 92% if used.)
+Mar 21 16:52:18 localhost crond[644]: (CRON) INFO (running with inotify support)
+Mar 21 16:55:25 localhost crond[641]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 64% if used.)
+Mar 21 16:55:26 localhost crond[641]: (CRON) INFO (running with inotify support)
+Mar 21 17:01:01 localhost CROND[2080]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 21 17:01:01 localhost run-parts(/etc/cron.hourly)[2080]: starting 0anacron
+Mar 21 17:01:01 localhost anacron[2089]: Anacron started on 2017-03-21
+Mar 21 17:01:01 localhost anacron[2089]: Will run job `cron.daily' in 36 min.
+Mar 21 17:01:01 localhost anacron[2089]: Will run job `cron.weekly' in 56 min.
+Mar 21 17:01:01 localhost anacron[2089]: Will run job `cron.monthly' in 76 min.
+Mar 21 17:01:01 localhost anacron[2089]: Jobs will be executed sequentially
+Mar 21 17:01:01 localhost run-parts(/etc/cron.hourly)[2091]: finished 0anacron
+Mar 21 17:01:01 localhost run-parts(/etc/cron.hourly)[2080]: starting 0yum-hourly.cron
+Mar 21 17:01:01 localhost run-parts(/etc/cron.hourly)[2097]: finished 0yum-hourly.cron
+Mar 21 17:37:01 localhost anacron[2089]: Job `cron.daily' started
+Mar 21 17:37:01 localhost run-parts(/etc/cron.daily)[2103]: starting 0yum-daily.cron
+Mar 21 17:37:01 localhost run-parts(/etc/cron.daily)[2110]: finished 0yum-daily.cron
+Mar 21 17:37:01 localhost run-parts(/etc/cron.daily)[2103]: starting logrotate
+Mar 21 17:37:01 localhost run-parts(/etc/cron.daily)[2117]: finished logrotate
+Mar 21 17:37:01 localhost run-parts(/etc/cron.daily)[2103]: starting man-db.cron
+Mar 21 17:37:08 localhost run-parts(/etc/cron.daily)[10802]: finished man-db.cron
+Mar 21 17:37:08 localhost anacron[2089]: Job `cron.daily' terminated
+Mar 21 17:57:01 localhost anacron[2089]: Job `cron.weekly' started
+Mar 21 17:57:01 localhost anacron[2089]: Job `cron.weekly' terminated
+Mar 21 18:01:01 localhost CROND[10843]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 21 18:01:01 localhost run-parts(/etc/cron.hourly)[10843]: starting 0anacron
+Mar 21 18:01:01 localhost run-parts(/etc/cron.hourly)[10852]: finished 0anacron
+Mar 21 18:01:01 localhost run-parts(/etc/cron.hourly)[10843]: starting 0yum-hourly.cron
+Mar 21 18:01:01 localhost run-parts(/etc/cron.hourly)[10858]: finished 0yum-hourly.cron
+Mar 21 18:17:01 localhost anacron[2089]: Job `cron.monthly' started
+Mar 21 18:17:01 localhost anacron[2089]: Job `cron.monthly' terminated
+Mar 21 18:17:01 localhost anacron[2089]: Normal exit (3 jobs run)
+Mar 22 06:01:01 localhost CROND[10951]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 22 06:01:01 localhost run-parts(/etc/cron.hourly)[10951]: starting 0anacron
+Mar 22 06:01:01 localhost anacron[10960]: Anacron started on 2017-03-22
+Mar 22 06:01:01 localhost anacron[10960]: Will run job `cron.daily' in 9 min.
+Mar 22 06:01:01 localhost anacron[10960]: Jobs will be executed sequentially
+Mar 22 06:01:01 localhost run-parts(/etc/cron.hourly)[10962]: finished 0anacron
+Mar 22 06:01:01 localhost run-parts(/etc/cron.hourly)[10951]: starting 0yum-hourly.cron
+Mar 22 06:01:01 localhost run-parts(/etc/cron.hourly)[10968]: finished 0yum-hourly.cron
+Mar 22 06:10:01 localhost anacron[10960]: Job `cron.daily' started
+Mar 22 06:10:01 localhost run-parts(/etc/cron.daily)[10972]: starting 0yum-daily.cron
+Mar 22 06:10:01 localhost run-parts(/etc/cron.daily)[10979]: finished 0yum-daily.cron
+Mar 22 06:10:01 localhost run-parts(/etc/cron.daily)[10972]: starting logrotate
+Mar 22 06:10:01 localhost run-parts(/etc/cron.daily)[10986]: finished logrotate
+Mar 22 06:10:01 localhost run-parts(/etc/cron.daily)[10972]: starting man-db.cron
+Mar 22 06:10:01 localhost run-parts(/etc/cron.daily)[10997]: finished man-db.cron
+Mar 22 06:10:01 localhost anacron[10960]: Job `cron.daily' terminated
+Mar 22 06:10:01 localhost anacron[10960]: Normal exit (1 job run)
+Mar 21 20:16:31 localhost crond[642]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 72% if used.)
+Mar 21 20:16:32 localhost crond[642]: (CRON) INFO (running with inotify support)
+Mar 22 12:12:27 localhost crond[643]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 47% if used.)
+Mar 22 12:12:28 localhost crond[643]: (CRON) INFO (running with inotify support)
+Mar 22 13:01:01 localhost CROND[2246]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 22 13:01:01 localhost run-parts(/etc/cron.hourly)[2246]: starting 0anacron
+Mar 22 13:01:02 localhost run-parts(/etc/cron.hourly)[2255]: finished 0anacron
+Mar 22 13:01:02 localhost run-parts(/etc/cron.hourly)[2246]: starting 0yum-hourly.cron
+Mar 22 13:01:02 localhost run-parts(/etc/cron.hourly)[2261]: finished 0yum-hourly.cron
+Mar 22 14:01:01 localhost CROND[3822]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 22 14:01:01 localhost run-parts(/etc/cron.hourly)[3822]: starting 0anacron
+Mar 22 14:01:01 localhost run-parts(/etc/cron.hourly)[3831]: finished 0anacron
+Mar 22 14:01:01 localhost run-parts(/etc/cron.hourly)[3822]: starting 0yum-hourly.cron
+Mar 22 14:01:01 localhost run-parts(/etc/cron.hourly)[3837]: finished 0yum-hourly.cron
+Mar 22 15:01:01 localhost CROND[5831]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 22 15:01:01 localhost run-parts(/etc/cron.hourly)[5831]: starting 0anacron
+Mar 22 15:01:01 localhost run-parts(/etc/cron.hourly)[5840]: finished 0anacron
+Mar 22 15:01:01 localhost run-parts(/etc/cron.hourly)[5831]: starting 0yum-hourly.cron
+Mar 22 15:01:01 localhost run-parts(/etc/cron.hourly)[5846]: finished 0yum-hourly.cron
+Mar 22 16:01:01 localhost CROND[6215]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 22 16:01:01 localhost run-parts(/etc/cron.hourly)[6215]: starting 0anacron
+Mar 22 16:01:01 localhost run-parts(/etc/cron.hourly)[6224]: finished 0anacron
+Mar 22 16:03:49 localhost crond[643]: (CRON) INFO (Shutting down)
+Mar 22 16:03:49 localhost crond[6435]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 77% if used.)
+Mar 22 16:03:49 localhost crond[6435]: (CRON) INFO (running with inotify support)
+Mar 22 16:03:49 localhost crond[6435]: (CRON) INFO (@reboot jobs will be run at computer's startup.)
+Mar 22 16:03:55 localhost crond[6435]: (CRON) INFO (Shutting down)
+Mar 22 16:03:55 localhost crond[6478]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 41% if used.)
+Mar 22 16:03:55 localhost crond[6478]: (CRON) INFO (running with inotify support)
+Mar 22 16:03:55 localhost crond[6478]: (CRON) INFO (@reboot jobs will be run at computer's startup.)
+Mar 22 16:04:11 localhost crond[6478]: (CRON) INFO (Shutting down)
+Mar 22 16:04:11 localhost crond[6671]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 39% if used.)
+Mar 22 16:04:11 localhost crond[6671]: (CRON) INFO (running with inotify support)
+Mar 22 16:04:11 localhost crond[6671]: (CRON) INFO (@reboot jobs will be run at computer's startup.)
+Mar 22 16:05:13 localhost crond[6671]: (CRON) INFO (Shutting down)
+Mar 22 16:05:13 localhost crond[20270]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 50% if used.)
+Mar 22 16:05:13 localhost crond[20270]: (CRON) INFO (running with inotify support)
+Mar 22 16:05:13 localhost crond[20270]: (CRON) INFO (@reboot jobs will be run at computer's startup.)

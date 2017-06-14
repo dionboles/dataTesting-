@@ -1,0 +1,193 @@
+{
+     'hits': [{
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofE',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 236,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:11:10 pdated: systemd-libs-219-30.el7_3.8.x86_64',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofJ',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 542,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:11:13 Installed: python-six-1.9.0-2.el7.noarch',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofL',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 660,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:11:13 Installed: ym-tils-1.1.31-40.el7.noarch',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofR',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 1011,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:11:16 Installed: python2-msgpack-0.4.8-1.el7.x86_64',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofX',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 1407,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:11:17 Installed: python-babel-0.9.6-8.el7.noarch',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofY',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 1466,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:11:18 Installed: python-jinja2-2.7.2-2.el7.noarch',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofi',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 2045,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:11:32 Installed: salt-minion-2016.11.4-1.el7.noarch',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofo',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 2404,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:30:04 pdated: glibc-common-2.17-157.el7_3.1.x86_64',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrRiidTt7NzPoofv',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 2808,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:30:04 pdated: libsemanage-2.5-5.1.el7_3.x86_64',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }, {
+         '_score': 1.0,
+         '_type':  'syslog',
+         '_id':  'AVwZrd-idTt7NzPoofy',
+         '_sorce': {
+             'cont': 1,
+             'beat': {
+                 'hostname':  'sisaweb.local',
+                 'name':  'sisaweb.local'
+            },
+             'inpt_type':  'log',
+             '@timestamp':  '2017-05-17T18:48:48.825Z',
+             'offset': 2919,
+             'sorce':  '/var/log/ym.log',
+             'fields': None,
+             'message':  'May 03 15:30:04 pdated: nss-sysinit-3.28.4-1.0.el7_3.x86_64',
+             'type':  'syslog'
+        },
+         '_index':  'filebeat-2017.05.17'
+    }],  'total': 24045,  'max_score': 1.0
+}
