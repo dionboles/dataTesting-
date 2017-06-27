@@ -12,7 +12,7 @@ clf = tree.DecisionTreeClassifier()
 
 clf = clf.fit(X,Y)
 
-predeiction = clf.predict([[height,weight,shoe]])
+# predeiction = clf.predict([[height,weight,shoe]])
 
 
 @app.route("/")
