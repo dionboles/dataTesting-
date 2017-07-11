@@ -1,5 +1,6 @@
 from slackclient import SlackClient
-slack_client = SlackClient('xoxb-209167995125-ZkxPOgg4SfYj9CGUf3Qn6sZs')
+import time
+slack_client = SlackClient('#######')
 slack_client.api_call("auth.test")
 
 def list_channels():
@@ -9,9 +10,13 @@ def list_channels():
     return None
 
 def userIM():
+    users = []
     usersim = slack_client.api_call("im.list")
     if usersim.get("ok"):
-        print(usersim);
+        num = len(usersim['ims'])
+        for i in range(num):
+            users.append(usersim['ims'][i]['user'])
+    return users
  
 def send_message(channel_id, message):
     slack_client.api_call(
@@ -19,6 +24,7 @@ def send_message(channel_id, message):
         channel=channel_id,
         text=message,
         username='spacebot2',
+        as_user=True,
         icon_emoji=':robot_face:'
     )
 
@@ -38,7 +44,19 @@ channels = list_channels()
 #     else:
 #         print("Unable to authenticate.")
 
+# users = userIM()
+# print(users)
 
-userIM()
+# if users:
+#     print("user ids:")
+#     for u in users:
+#         send_message(u,"hello this is a test")
 
-send_message("@azconerly ","hi")
+
+
+if slack_client.rtm_connect():
+    READ_WEBSOCKET_DELAY = 1
+    command, channel = parse_slack_output(slack_client.rtm_read())
+    if command and channel:
+    
+    time.sleep(READ_WEBSOCKET_DELAY)
