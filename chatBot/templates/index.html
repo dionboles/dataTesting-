@@ -12,41 +12,23 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> I Guess this works </h1>
+    <h1> Let Chat </h1>
     <h3> DecisionTree </h3>
     <div ng-app="myApp" ng-controller="formCtrl" >
         <form ng-submit="processForm()">
-        <label>height:</label>
-        <input type="text" name="height" ng-model="formData.height" placeholder="Enter Your height">
-        <br/>
-        <label>weight:</label>
-        <input type="text" name="weight" ng-model="formData.weight" placeholder="Enter Your weight">
-        <br/>
-        <label>Shose Size:</label>
-        <input type="text" name="shoe"  ng-model="formData.shoe" placeholder="Enter Your Shose Size">
-        <br>
+        <label>Chat:</label>
+        <input type="text" name="chat" ng-model="formData.word" placeholder="Enter words">
         <button type="submit">Send </button>
         </form>
   
     {% raw %}
-        <h1>Hello</h1>
-        <h1>{{question}}</h1>
-        <br>
-       <h1> Our prediction</h1>
+       <h1> reponse </h1>
         <p> you are a {{ data }}
     {% endraw %}
       </div>
     <script>
-        angular.module('myApp').config(['$compileProvider', function ($compileProvider) {
-  $compileProvider.debugInfoEnabled(false);
-}]);
         var app = angular.module("myApp",[]);
         app.controller("formCtrl",function($scope,$http){
-                $.get("/ask",function(data){
-                  var box = JSON.parse(data);
-                })
-                num = Math.floor(Math.random() *box.Questions.length)
-                $scope.question= box[num];
             $scope.formData = {}
            $scope.processForm = function(){
             $http(({
