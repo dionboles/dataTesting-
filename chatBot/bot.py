@@ -21,4 +21,4 @@ vect = text.CountVectorizer(tokenizer = tokenize,stop_words="english")
 vec = vect.fit(vocab)
 nexts = vec.transform(["hello how are yuo shoes"])
 
-print(stemmer)
+print(nexts.toarray())
