@@ -18,7 +18,7 @@ for i in range(309):
 print(fakeData)
 
 '''
-db = MySQLdb.connect(host="localhost",user="root",password="root",database="test",port=8889)
+db = MySQLdb.connect(host="localhost",user="root",password="",database="test",port=8889)
 cursor = db.cursor()
 cursor.execute("Select time from data");
 results = [item for item in cursor.fetchall()];
